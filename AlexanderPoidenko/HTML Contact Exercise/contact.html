@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="palm-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact</h1>
+    <div id="contact-p">
+        <p>Are you interested in my services? Maybe just want to have a chat?
+            <br>
+            Just use the form below to get in contact with me! 📬
+        </p>
+    </div>
+
+    <form id="contact-form">
+        <label for="name"></label><br>
+        <input type="text" id="name" name="name" placeholder="Name"><br>
+        <label for="email"></label><br>
+        <input type="email" id="email" name="email" placeholder="E-Mail"><br>
+        <label for="phonenumber"></label><br>
+        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" maxlength="9"
+            placeholder="Phone Number"><br>
+        <label for="textarea"></label><br>
+        <textarea id="textarea" name="textarea" placeholder="Message" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+</body>
+
+</html>
